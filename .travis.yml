@@ -28,4 +28,3 @@ matrix:
       script:
         - make install
         - gradle
-        - DEBUG='*' ci
