@@ -22,7 +22,7 @@ matrix:
         - source ~/.bash_profile
         - sdk install kscript
         - sdk install gradle
-        - sdk install danger-kotlin-workshop
+        - sdk install kotlin
         - npm install -g danger@7.1.4
         - sudo chmod -R a+rwx /usr/local/
       script:
