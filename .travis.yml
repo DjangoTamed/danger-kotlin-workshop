@@ -27,5 +27,5 @@ matrix:
         - sudo chmod -R a+rwx /usr/local/
       script:
         - make install
-        - gradle dangerkotlinworkshop:test
-        - DEBUG='*' dangerkotlinworkshop ci
+        - gradle
+        - DEBUG='*' ci
